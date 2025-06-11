@@ -7,5 +7,3 @@ on:
 jobs:
   ReUse:
     uses: devops-shop/roboshop-github-actions/.github/workflows/ci-main.yml@main
-
-
