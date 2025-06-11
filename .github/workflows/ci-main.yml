@@ -5,7 +5,5 @@ on:
     branches:
       - 'main'
 jobs:
-  Build:
+  ReUse:
     uses: devops-shop/roboshop-github-actions/.github/workflows/ci-main.yml@main
-    with:
-      appType: 'nodejs'
