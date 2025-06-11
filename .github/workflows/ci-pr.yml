@@ -1,8 +1,5 @@
-name: CI - DEV
-on:
-  push:
-    branches:
-      - 'ROBO-**'
+name: CI - PR
+on: [pull_request]
 jobs:
   Build:
     uses: devops-shop/roboshop-github-actions/.github/workflows/ci-main.yml@main
