@@ -1,4 +1,4 @@
-name: CICD - MAIN
+name: CI - MAIN
 on:
   workflow_dispatch:
   push:
