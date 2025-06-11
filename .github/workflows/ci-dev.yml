@@ -4,7 +4,5 @@ on:
     branches:
       - 'ROBO-**'
 jobs:
-  Build:
-    uses: devops-shop/roboshop-github-actions/.github/workflows/ci-main.yml@main
-    with:
-      appType: 'nodejs'
+  ReUse:
+    uses: devops-shop/roboshop-github-actions/.github/workflows/ci-dev.yml@main
