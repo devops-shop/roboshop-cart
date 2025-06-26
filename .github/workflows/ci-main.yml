@@ -1,4 +1,4 @@
-name: CI - MAIN
+name: CICD - MAIN
 on:
   workflow_dispatch:
   push:
@@ -11,4 +11,4 @@ jobs:
       appType: 'nodejs'
       appName: 'cart'
     secrets:
-        vault_token: ${{ secrets.vault_token }}
+      vault_token: ${{ secrets.vault_token }}
