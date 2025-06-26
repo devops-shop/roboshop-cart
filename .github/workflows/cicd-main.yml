@@ -8,7 +8,7 @@ on:
 
 jobs:
   Build:
-    uses: devops-shop/roboshop-github-actions/.github/workflows/ci-main.yml@main
+    uses: devops-shop/roboshop-github-actions/.github/workflows/cicd-main.yml@main
     with:
       appType: 'nodejs'
       appName: 'cart'
